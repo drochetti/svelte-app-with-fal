@@ -2,17 +2,12 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Creating a project
+## Set with fal.ai
 
-If you're seeing this, you've probably already done this step. Congrats!
+You need to add your `FAL_KEY` to the envinroment before running the server.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Go to `https://fal.ai` and get one, in case you haven't done that yet
+1. Create a `.env.local` file with `FAL_KEY=YOUR_FAL_API_KEY`. See `.env.example`
 
 ## Developing
 
